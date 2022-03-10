@@ -6,4 +6,6 @@
  */
 int main(void)
 {
+
+Return (0);
 }
