@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - main body
- * Return: 1 upon success.
+ * main - entry point
+ * Description: the program writes to stderr.
+ * Return: value 1 on success.
  */
 int main(void)
 {
