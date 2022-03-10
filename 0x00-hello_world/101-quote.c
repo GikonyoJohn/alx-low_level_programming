@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- *main - main block
- *Return: 1 as success
+ * main - main body
+ * Return: 1 upon success.
  */
-int main (void)
+int main(void)
 {
-printf
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+return (1);
 }
