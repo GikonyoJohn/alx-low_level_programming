@@ -1,20 +1,22 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+
 /**
  *main print alphabet
  *return: 0 on success
- *
+ *get a random number
 */
 
 int main(void)
 {
-	char c = 'a';
-	while (c <= 'z')
+	char letter = 'a';
+
+	while (letter <= 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
-
 }
