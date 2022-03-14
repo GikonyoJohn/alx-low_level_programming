@@ -1,20 +1,21 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+
 /**
- * Prints base 10 numbers using putchar
- * Description: Prints numbers 0-9
- * Return: 0 for success
-*/
+ * main - prints out the alphabet in lowercase except for 'qe'
+ *
+ * Return:Always 0 (success)
+ */
+
 int main(void)
 {
-	int num = 48;
-	
-	while (num <= 57)
-	{
-		putchar(num);
-		num++;
-	}
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+
+	if (c != 'e' && c != 'q')
+		putchar(c);
+
 	putchar('\n');
+
 	return (0);
 }
