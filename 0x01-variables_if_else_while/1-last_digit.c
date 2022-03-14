@@ -2,24 +2,33 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- *main -  main block
- *description:print the last digit
- *Return: 0
+ * main -  last digit
+ * description:print the last digit
+ * Return: 0 for success
  */
 int main(void)
 {
+
 	int n;
-	int last;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	last = n % 10;
 
-	if (last > 5)
-		printf("last digit of %i is %i and is greater than 5\n" , n, last);
-	else if (last == 0)
-		printf("Last digit of %i is %i and is 0\n" , n, last);
-	else if (last < 6)
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
+	n = rand() - RAND_MAX / 2;
+
+	printf("Last digit of %d is %d ", n, (n % 10));
+
+	if ((n % 10) > 5)
+	{
+		printf("and is greater than 5\n");
+	}
+	else if ((n % 10) == 0)
+	{
+		printf("and is 0\n");
+	}
+	else
+	{
+		printf("and is less than 6 and not 0\n");
+	}
 
 	return (0);
+}
