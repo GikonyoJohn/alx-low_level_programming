@@ -3,11 +3,9 @@
 #include <time.h>
 
 /**
- * main - Prints alphabet
- * @void: Empty parameter list for main.
- * Description: Prints the alphabet in lower and upper case
- * Can only use putchar
- * Return: 0 for success
+ *main print alphabet
+ *return: 0 on success
+ *get a random number
 */
 int main(void)
 {
