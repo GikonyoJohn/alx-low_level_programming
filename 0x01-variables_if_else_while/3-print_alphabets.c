@@ -3,12 +3,13 @@
 #include <time.h>
 
 /**
- * main - main block
+ * main - Prints alphabet
+ * @void: Empty parameter list for main.
  *
- * Description:  prints the alphabet in lowercase,
- * and then in uppercase, followed by a new line.
+ * Description: Prints the alphabet in lower and upper case
+ * Can only use putchar
  *
- * Return: 0
+ * Return: 0 for success
 */
 int main(void)
 {
