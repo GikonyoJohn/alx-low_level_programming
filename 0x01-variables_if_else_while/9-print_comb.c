@@ -1,27 +1,22 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /**
- * main - writes 0-9
+ * main - Prints numbers between 0 to 9 with commas and spaces.
  *
- * Description: Writes 0-9 with comma and space
- *
- * Return: 0 for success
-*/
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int num = 72;
+	int i;
 
-	while (num < 82)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(num);
-		if (num < 81)
+		putchar(i);
+		if (i != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		num++;
 	}
 	putchar('\n');
 	return (0);
