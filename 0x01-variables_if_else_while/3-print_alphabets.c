@@ -2,29 +2,21 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Prints alphabet
- * void: Empty parameter list for main.
- * Description: Prints the alphabet in lower and upper case
- * Can only use putchar
- * Return: 0 for success
+ * main - displays all lower and upper case alphabets in ascending order
+ * Return: 0 if exited properly, non-zero otherwise
 */
 int main(void)
 {
-	char letter = 'a';
+	int ch;
 
-	while (letter <= 'z')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(letter);
-		letter++;
+	putchar(ch);
 	}
-
-	letter = 'A';
-
-	while (letter <= 'Z')
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
-		putchar(letter);
-		letter++;
+	putchar(ch);
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
