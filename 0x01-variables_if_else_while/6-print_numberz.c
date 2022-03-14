@@ -1,12 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 /**
  * Prints base 10 numbers using putchar
- *
  * Description: Prints numbers 0-9
- *
  * Return: 0 for success
 */
 int main(void)
