@@ -2,11 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Prints alphabet
- * Description: Prints the alphabet in lower case
- *follwed by newline
- * Return: 0 for success
-*/
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
+ */
 int main(void)
 {
 	char letter = 'a';
