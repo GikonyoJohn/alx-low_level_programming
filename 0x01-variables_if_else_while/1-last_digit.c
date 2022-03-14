@@ -5,7 +5,7 @@
  * main -  last digit
  * description:print the last digit
  * Return: 0 for success
- */
+*/
 int main(void)
 {
 
