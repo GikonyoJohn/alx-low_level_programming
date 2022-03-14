@@ -2,9 +2,11 @@
 #include <stdio.h>
 #include <time.h>
 /**
- *main print alphabet
- *return: 0 on success
- *get a random number
+ * main - Prints alphabet
+ * @void: Empty parameter list for main.
+ * Description: Prints the alphabet in lower case
+ * Can only use putchar
+ * Return: 0 for success
 */
 int main(void)
 {
