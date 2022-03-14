@@ -3,11 +3,15 @@
 #include <stdio.h>
 
 /**
- * main - positive or negative else zero
- * get a random number and print the number
- * it is either positive, negative, or zero
- * return: 0
- */
+ * main - Positive or Negative - print sign of random number
+ * void: Empty parameter list for main.
+ *
+ * Description: this if/else statement delares the sign (positive
+ * or negative) of a random number. It also states if the value
+ * is zero.
+ *
+ * Return: 0 for success
+*/
 int main(void)
 {
   /**
