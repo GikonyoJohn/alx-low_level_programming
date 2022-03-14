@@ -1,22 +1,19 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+
 /**
- * main - displays all lower and upper case alphabets in ascending order
- * Return: 0 if exited properly, non-zero otherwise
-*/
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int ch;
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (i = 0; i < 52; i++)
 	{
-	putchar(ch);
+		putchar(alp[i]);
 	}
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	{
-	putchar(ch);
-	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
