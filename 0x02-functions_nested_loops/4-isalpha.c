@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *_isalpha -check if number in alphabet
- * @c: The character to print
+ * _isalpha -check if number in alphabet
+ *@c: The character to print
  *Return: 1 for true 0 for false
  */
 
