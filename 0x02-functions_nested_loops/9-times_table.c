@@ -1,38 +1,41 @@
 #include "main.h"
 
 /**
- * times_table - 9*9 grid output
+ * times_table - Check description
+ * Description: It prints 9 times table starting with 0
+ * Return: Nothing.
  */
-
 void times_table(void)
 {
-int r1, r2, m;
+	int i, j, n;
 
-for (r1 = 0; r1 < 10; r1++)
-{
-for (r2 = 0; r2 < 10; r2++)
-{
-m = r2 * r1;
-if (r2 == 0)
-{
-_putchar(m + '0');
-}
+	for (i = 0; i <= 9; i++)
+	{
+		for (j = 0; j <= 9; j++)
+		{
+			n = i * j;
 
-if (m < 10 && r2 != 0)
-{
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar(m + '0');
-}
-else if (m >= 10)
-{
-_putchar(',');
-_putchar(' ');
-_putchar((m / 10) + '0');
-_putchar((m % 10) + '0');
-}
-}
-_putchar('\n');
-}
+			if ((n / 10) == 0)
+			{
+				if (j != 0)
+					_putchar(' ');
+				_putchar(n + '0');
+
+				if (j == 9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((n / 10) + '0');
+				_putchar((n % 10) + '0');
+				if (j == 9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
+			}
+		}
+		_putchar('\n');
+	}
 }
