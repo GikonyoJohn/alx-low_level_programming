@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * find prime number.
+ * main - find prime number.
  *
- * main -  calculate largest prime of 612852475143
+ * Description: calculate largest prime of 612852475143
  *
- * Return: Success Always
+ * Return: 0
  */
-
 
 int main(void)
 {
