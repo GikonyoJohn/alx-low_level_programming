@@ -3,7 +3,7 @@
 
 /**
  * main - reset to 98.
- *
+ * points to int
  * Return: Always 0.
  *
  */
