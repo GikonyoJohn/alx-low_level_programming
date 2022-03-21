@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * rev_string - rev string
@@ -25,3 +25,4 @@ void rev_string(char *s)
 		*s = n[c];
 		c++;
 	}
+}
