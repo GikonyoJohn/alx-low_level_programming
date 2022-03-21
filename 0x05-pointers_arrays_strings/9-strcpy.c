@@ -1,9 +1,9 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * *_strcpy - copies string to another string
  * @dest: string pointer
- * @src: pointer
+ * @src: src pointer
  * Return: dest pointer
  */
 
