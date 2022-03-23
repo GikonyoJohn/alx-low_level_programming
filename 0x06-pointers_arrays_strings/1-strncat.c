@@ -17,7 +17,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (i = 0; i < 1000; i++)
 	{
-		if (dest[i] == '\0')
+		if (njuguna[i] == '\0')
 		{
 			break;
 		}
