@@ -13,9 +13,9 @@ char *_strchr(char *src, char c)
 	{
 		if (*src == c)
 		{
-			return (s);
+			return (src);
 		}
-		s++;
+		src++;
 	}
 	if (*src == c)
 	{
