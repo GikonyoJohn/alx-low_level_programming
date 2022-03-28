@@ -2,24 +2,24 @@
 
 /**
  * _strchr - locates a character in string
- * @src: source string
+ * @s: source string
  * @c: character to search 
- * Return: *src
+ * Return: *s
 */
 
-char *_strchr(char *src, char c)
+char *_strchr(char *s, char c)
 {
-	while (*src != '\0')
+	while (*s != '\0')
 	{
-		if (*src == c)
+		if (*s == c)
 		{
-			return (src);
+			return (s);
 		}
-		src++;
+		s++;
 	}
-	if (*src == c)
+	if (*s == c)
 	{
-		return (src);
+		return (s);
 	}
 return (0);
 }
