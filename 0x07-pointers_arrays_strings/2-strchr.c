@@ -5,29 +5,21 @@
  * @s: source string
  * @c: character to search 
  * Return: *s
-*/
+ */
 
 char *_strchr(char *s, char c)
 {
-	int i;
-
-	if (src == 0)
+	while (*s != '\0')
 	{
-		return (0);
-	}
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		if (s[i] == c)
+		if (*s == c)
 		{
-			return (&s[i]);
+			return (s);
 		}
-
+		s++;
 	}
-
-	if (s[i] == c)
+	if (*s == c)
 	{
-		return (&s[i]);
+		return (s);
 	}
-	return (0);
+return (0);
 }
