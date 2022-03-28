@@ -3,9 +3,9 @@
 /**
  * _strchr - locates a character in string
  * @s: source string
- * @c: character to search 
- * Return: *s
- */
+ * @c: character to search for
+ * Return: *S
+*/
 
 char *_strchr(char *s, char c)
 {
