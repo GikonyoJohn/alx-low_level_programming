@@ -2,7 +2,7 @@
 
 /**
  * _print_rev_recursion - reverse
- * @s: pointer to string params
+ * @s: pointer to string parameter
  *
  */
 
