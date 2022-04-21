@@ -8,18 +8,18 @@
   *
   * Return: The number of nodes
   */
-size_t print_list(const list_t *j)
+size_t print_list(const list_t *h)
 {
 	size_t count = 0;
 
-	while (j != NULL)
+	while (h != NULL)
 	{
-		if (j->str == NULL)
+		if (h->str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf("[%d] %s\n", j->len, j->str);
+			printf("[%d] %s\n", h->len, h->str);
 
-		j = j->next;
+		h = h->next;
 		count++;
 	}
 
