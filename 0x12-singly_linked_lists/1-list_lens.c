@@ -1,4 +1,4 @@
-#include <stdlib.h>
+include <stdlib.h>
 #include <stdio.h>
 #include "lists.h"
 
@@ -8,13 +8,13 @@
   *
   * Return: The number of elements of a list
   */
-size_t list_len(const list_t *j)
+size_t list_len(const list_t *h)
 {
 	size_t count = 0;
 
-	while (j)
+	while (h)
 	{
-		j = j->next;
+		h = h->next;
 		count++;
 	}
 
