@@ -2,20 +2,20 @@
 
 /**
  * listint_len - Calculate the number of elements.
- * @h: The head of the linked list.
+ * @h: Pointer to a list.
  * Return: Integer.
  **/
 
 size_t listint_len(const listint_t *h)
 {
-	const listint_t *j;
+	const listint_t *tp;
 	unsigned int cnr = 0;
 
-	j = h;
-	while (j)
+	tp = h;
+	while (tp)
 	{
 		cnr++;
-		j = j->next;
+		tp = tp->next;
 	}
 	return (cnr);
 }
